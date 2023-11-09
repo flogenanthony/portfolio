@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Anthony Flogen | Web Porfolio</title>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+		<!-- External CSS -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<!-- CDN Link CSS -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+		<!-- Google Font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+		<!-- jQuery library -->
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+		<!-- External JavaScript file -->
+		<script src="script.js"></script>
+		
+	</head>
+	<body>
+		<header>
+			<nav class="navbar fixed-top navbar-expand-md navbar-custom">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon">
+						<svg width="30" height="30" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<path d="M5 18h14"></path>
+							<path d="M5 12h14"></path>
+							<path d="M5 6h14"></path>
+						 </svg>
+					</span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav mx-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#aboutnav">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#resumenav">Resume</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#servicesnav">Services</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#portfolionav">Portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contactnav">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<div class="container" id="home">
+			<section class="text-center" id="landing" data-aos="zoom-in-down">
+				<h1>Front-end Web Developer</h1>
+				<p>Hello there! I'm Anthony Flogen, a recent graduate with a passion for coding and a degree in Information Technology. As a fresh graduate eager to dive into the world of web development, I bring enthusiasm, creativity, and a strong willingness to learn.</p>
+				<img src="images/img4.jpg" class="img-fluid" id="profile">
+				<div class="social">
+					<a href="https://www.facebook.com/anthony.flogen.7" id="fb">
+						<svg width="36" height="36" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5Z"></path>
+						 </svg>
+					</a>
+					<a href="https://www.instagram.com/flogenanthony/" id="ig">
+						<svg width="36" height="36" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<path d="M12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm0-2a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm6.5-.25a1.25 1.25 0 1 1-2.5 0 1.25 1.25 0 0 1 2.5 0ZM12 4c-2.474 0-2.878.007-4.029.058-.784.037-1.31.142-1.798.332a2.886 2.886 0 0 0-1.08.703 2.89 2.89 0 0 0-.704 1.08c-.19.49-.295 1.015-.331 1.798C4.006 9.075 4 9.461 4 12c0 2.474.007 2.878.058 4.029.037.783.142 1.31.331 1.797.17.435.37.748.702 1.08.337.336.65.537 1.08.703.494.191 1.02.297 1.8.333C9.075 19.994 9.461 20 12 20c2.474 0 2.878-.007 4.029-.058.782-.037 1.309-.142 1.797-.331a2.92 2.92 0 0 0 1.08-.702c.337-.337.538-.65.704-1.08.19-.493.296-1.02.332-1.8.052-1.104.058-1.49.058-4.029 0-2.474-.007-2.878-.058-4.029-.037-.782-.142-1.31-.332-1.798a2.91 2.91 0 0 0-.703-1.08 2.884 2.884 0 0 0-1.08-.704c-.49-.19-1.016-.295-1.798-.331C14.925 4.006 14.539 4 12 4Zm0-2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153.509.5.902 1.105 1.153 1.772.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772c-.5.508-1.105.902-1.772 1.153-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2Z"></path>
+						 </svg>
+					</a>
+					<a href="https://github.com/flogenanthony" id="gh">
+						<svg width="36" height="36" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<path d="M12 2C6.475 2 2 6.475 2 12a9.994 9.994 0 0 0 6.838 9.488c.5.087.687-.213.687-.476 0-.237-.013-1.024-.013-1.862-2.512.463-3.162-.612-3.362-1.175-.113-.288-.6-1.175-1.025-1.413-.35-.187-.85-.65-.013-.662.788-.013 1.35.725 1.538 1.025.9 1.512 2.338 1.087 2.912.825.088-.65.35-1.087.638-1.337-2.225-.25-4.55-1.113-4.55-4.938 0-1.088.387-1.987 1.025-2.688-.1-.25-.45-1.275.1-2.65 0 0 .837-.262 2.75 1.026a9.28 9.28 0 0 1 2.5-.338c.85 0 1.7.112 2.5.337 1.912-1.3 2.75-1.024 2.75-1.024.55 1.375.2 2.4.1 2.65.637.7 1.025 1.587 1.025 2.687 0 3.838-2.337 4.688-4.562 4.938.362.312.675.912.675 1.85 0 1.337-.013 2.412-.013 2.75 0 .262.188.574.688.474A10.016 10.016 0 0 0 22 12c0-5.525-4.475-10-10-10Z"></path>
+						 </svg>
+					</a>
+					<a href="https://google.com/flogenanthony@gmail.com" id="gg">
+						<svg width="36" height="36" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2l.01-12c0-1.1.89-2 1.99-2Zm8 9 8-5V6l-8 5-8-5v2l8 5Z" clip-rule="evenodd"></path>
+						 </svg>
+					</a>
+					<a href="https://t.me/flogenanthony7" id="tg">
+						<svg width="36" height="36" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<path d="M20.71 3.655s1.942-.758 1.78 1.082c-.053.757-.54 3.408-.917 6.276l-1.295 8.495s-.108 1.244-1.08 1.46c-.97.217-2.428-.757-2.698-.973-.215-.162-4.047-2.597-5.396-3.788-.377-.324-.81-.974.054-1.731l5.666-5.41c.648-.65 1.295-2.165-1.403-.325l-7.554 5.14s-.864.54-2.483.054l-3.507-1.082s-1.295-.812.917-1.623C8.19 8.685 14.828 6.09 20.71 3.654Z"></path>
+						 </svg>
+					</a>
+				</div>
+			</section>
+			<br id="aboutnav">
+			<section id="about" data-aos="fade-up">
+				<div class="card about-card">
+					<div class="card-body about-card-body">
+						<div class="content">
+							<img class="card-img-top" src="images/dp.jpg" alt="">
+							<div class="text-content">
+								<h2>About me</h2>
+								<p>I am a passionate and dedicated BSIT graduate eager to embark on a rewarding journey as a web developer. With a strong foundation in computer science and a keen eye for design, I am excited to apply my skills and knowledge to create innovative and user-friendly websites.</p>
+								<div class="row">
+									<div class="col-lg-6">
+										<p><strong>Name: </strong>Anthony T. Flogen</p>
+										<p><strong>Address: </strong>Manila City, Metro Mnila</p>
+										<p><strong>Phone Number: </strong>0967-229-0433</p>
+										<p><strong>Email: </strong>flogenanthony@gmail.com</p>
+									</div>
+									<div class="col-lg-6">
+										<p><strong>Age: </strong>22</p>
+										<p><strong>Birthday: </strong>January 6, 2001</p>
+										<p><strong>Birthplace: </strong>Morong, Rizal</p>
+										<p><strong>Degree: </strong>Bachelor's Degree</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="container" id="skills" data-aos="flip-up">
+						<h2>Skills</h2>
+						<div class="skill container">
+							<div class="row justify-content-center">
+								<div class="col-item col-5 col-md-3 col-lg-2" id="html">
+									<svg width="90" height="90" fill="rgb(255, 81, 0)" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+										<path d="M4.136 3.016h15.729l-1.431 16.15-6.451 1.826-6.414-1.826-1.433-16.15Zm5.266 7.302-.173-2.035 7.533.002.173-1.963-9.87-.002.522 5.998h6.835l-.243 2.566-2.18.602-2.213-.605-.141-1.58H7.69l.247 3.123L12 17.51l4.028-1.08.558-6.111H9.402v-.001Z"></path>
+									</svg>
+									<p>HTML (Intermediate)</p>
+								</div>
+								<div class="col-item col-5 col-md-3 col-lg-2" id="css">
+									<svg width="90" height="90" fill="rgb(0, 110, 255)" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+										<path d="M4.192 3.14h15.615l-1.42 16.035-6.404 1.812-6.369-1.813L4.192 3.14ZM16.9 6.423 7.1 6.42l.158 1.949 7.53.002-.19 2.02H9.66l.18 1.913h4.596l-.272 2.62-2.164.598-2.197-.603-.14-1.57h-1.94l.215 2.868L12 17.482l3.995-1.137.905-9.923Z"></path>
+									</svg>
+									<p>CSS (Intermediate)</p>
+								</div>
+								<div class="col-item col-5 col-md-3 col-lg-2" id="bootstrap">
+									<svg width="90" height="90" fill="rgb(165, 0, 180)" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" d="M4.985 2c-1.37 0-2.383 1.199-2.337 2.498.043 1.25-.013 2.867-.42 4.186-.41 1.322-1.1 2.16-2.228 2.268v1.215c1.128.107 1.819.945 2.227 2.268.408 1.319.464 2.936.42 4.185-.045 1.3.968 2.499 2.338 2.499h14.032c1.37 0 2.383-1.199 2.337-2.499-.043-1.249.013-2.866.42-4.185.409-1.323 1.098-2.16 2.226-2.268v-1.215c-1.128-.108-1.817-.946-2.226-2.268-.407-1.32-.463-2.937-.42-4.186C21.4 3.198 20.386 2 19.017 2H4.985zM16.27 13.769c0 1.79-1.335 2.875-3.55 2.875H8.949a.407.407 0 0 1-.407-.407V6.881a.407.407 0 0 1 .407-.406h3.75c1.847 0 3.06 1 3.06 2.537 0 1.078-.816 2.043-1.855 2.213v.056c1.415.155 2.367 1.135 2.367 2.488zm-3.96-6.005h-2.15v3.038h1.811c1.4 0 2.172-.564 2.172-1.572 0-.944-.664-1.466-1.833-1.466zm-2.15 4.243v3.347h2.23c1.457 0 2.23-.585 2.23-1.684 0-1.1-.794-1.663-2.324-1.663H10.16z" clip-rule="evenodd"></path>
+									 </svg>
+									<p>Bootstrap (Intermediate)</p>
+								</div>
+								<div class="col-item col-5 col-md-3 col-lg-2" id="javascript">
+									<svg width="90" height="90" fill="rgb(238, 255, 0)" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+										<path d="M3 3h18v18H3V3Zm16.525 13.707c-.131-.821-.666-1.511-2.252-2.155-.552-.259-1.165-.438-1.349-.854-.068-.248-.078-.382-.034-.529.113-.484.687-.629 1.137-.495.293.09.563.315.732.676.775-.507.775-.507 1.316-.844-.203-.314-.304-.451-.439-.586-.473-.528-1.103-.798-2.126-.775l-.528.067c-.507.124-.991.395-1.283.754-.855.968-.608 2.655.427 3.354 1.023.765 2.521.933 2.712 1.653.18.878-.652 1.159-1.475 1.058-.607-.136-.945-.439-1.316-1.002l-1.372.788c.157.359.337.517.607.832 1.305 1.316 4.568 1.249 5.153-.754.021-.067.18-.528.056-1.237l.034.049Zm-6.737-5.434h-1.686c0 1.453-.007 2.898-.007 4.354 0 .924.047 1.772-.104 2.033-.247.517-.886.451-1.175.359-.297-.146-.448-.349-.623-.641-.047-.078-.082-.146-.095-.146l-1.368.844c.229.473.563.879.994 1.137.641.383 1.502.507 2.404.305.588-.17 1.095-.519 1.358-1.059.384-.697.302-1.553.299-2.509.008-1.541 0-3.083 0-4.635l.003-.042Z"></path>
+									</svg>
+									<p>JavaScript (Beginner)</p>
+								</div>
+								<div class="col-item col-5 col-md-3 col-lg-2" id="php">
+									<svg width="90" height="90" fill="rgb(38, 0, 255)" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+										<path d="M2.15 16.778h1.57a.14.14 0 0 0 .14-.12l.35-1.82h1.22c.51.012 1.02-.055 1.51-.2.397-.132.759-.35 1.06-.64.27-.243.497-.53.67-.85a3.43 3.43 0 0 0 .36-1 2.43 2.43 0 0 0-.41-2.16 2.64 2.64 0 0 0-2.09-.78h-3a.16.16 0 0 0-.15.13L2 16.598a.19.19 0 0 0 0 .13.17.17 0 0 0 .15.05ZM5 10.618h1a1.449 1.449 0 0 1 1.08.29c.17.18.2.52.11 1a1.81 1.81 0 0 1-.57 1.12 2.17 2.17 0 0 1-1.33.33h-.8l.51-2.74Zm9.8-.95a2.7 2.7 0 0 0-1.88-.51h-1.19l.33-1.76a.15.15 0 0 0 0-.13.16.16 0 0 0-.11 0h-1.57a.14.14 0 0 0-.14.12l-1.38 7.27a.13.13 0 0 0 0 .12.13.13 0 0 0 .11.06h1.54a.14.14 0 0 0 .14-.13l.77-4.07h1.11c.45 0 .61.1.66.16a.808.808 0 0 1 0 .62l-.61 3.24a.13.13 0 0 0 0 .12.143.143 0 0 0 .11.06h1.56a.16.16 0 0 0 .15-.13l.64-3.4a1.7 1.7 0 0 0-.24-1.64Zm4.52-.51h-3.13a.14.14 0 0 0-.15.13l-1.46 7.31a.16.16 0 0 0 0 .13.14.14 0 0 0 .11.05h1.63a.14.14 0 0 0 .15-.12l.37-1.82h1.27a5.282 5.282 0 0 0 1.56-.2 3 3 0 0 0 1.18-.64c.279-.243.515-.53.7-.85.174-.313.299-.65.37-1a2.38 2.38 0 0 0-.42-2.16 2.81 2.81 0 0 0-2.18-.83Zm.62 2.77a1.83 1.83 0 0 1-.6 1.12 2.28 2.28 0 0 1-1.37.33h-.8l.54-2.76h1a1.6 1.6 0 0 1 1.13.29c.16.18.16.52.1 1.02Z"></path>
+									</svg>
+									<p>PHP (Beginner)</p>
+								</div>
+								<div class="col-item col-5 col-md-3 col-lg-2" id="sql">
+									<svg width="90" height="90" fill="rgb(0, 195, 255)" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+										<path d="M18 15.75v-9h-1.5v10.5h6v-1.5H18Z"></path>
+										<path d="M13.5 6.75h-3A1.5 1.5 0 0 0 9 8.25v7.5a1.5 1.5 0 0 0 1.5 1.5h.75v1.5a1.5 1.5 0 0 0 1.5 1.5h1.5v-1.5h-1.5v-1.5h.75a1.5 1.5 0 0 0 1.5-1.5v-7.5a1.5 1.5 0 0 0-1.5-1.5Zm-3 9v-7.5h3v7.5h-3Z"></path>
+										<path d="M6 17.25H1.5v-1.5H6v-3H3a1.5 1.5 0 0 1-1.5-1.5v-3A1.5 1.5 0 0 1 3 6.75h4.5v1.5H3v3h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5Z"></path>
+									</svg>
+									<p>SQL (Beginner)</p>
+								</div>
+								<div class="col-item col-5 col-md-3 col-lg-2" id="vscode">
+									<svg width="90" height="90" fill="rgb(0, 42, 180)" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+										<path d="m24 12-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12ZM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12Zm6.96 9H7.66l6.552-18h2.128L9.788 21Z"></path>
+									 </svg>
+									<p>VS Code (Intermediate)</p>
+								</div>
+								<div class="col-item col-5 col-md-3 col-lg-2" id="photoshop">
+									<svg width="90" height="90" fill="none" stroke="rgb(38, 0, 255)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+										<path d="M19.5 3h-15A1.5 1.5 0 0 0 3 4.5v15A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3Z"></path>
+										<path d="M7 7.5v9"></path>
+										<path d="M8 12.5c1.5 0 3.5-.4 3.5-2.5S9.5 7.5 8 7.5H7v5h1Z" clip-rule="evenodd"></path>
+										<path d="M17 10.512c-.5 0-3-.249-3 1.494 0 1.743 3 1.245 3 2.988 0 1.743-3 1.494-3 1.494"></path>
+									 </svg>
+									<p>Photoshop (Intermediate)</p>
+								</div>
+								<div class="col-item col-5 col-md-3 col-lg-2" id="figma">
+									<svg width="90" height="90" fill="rgb(43, 255, 0)" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+										<path d="M8.5 2a3 3 0 0 0 0 6h7a3 3 0 1 0 0-6h-7Z"></path>
+										<path d="M15.5 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"></path>
+										<path d="M5.5 12a3 3 0 0 1 3-3h3v6h-3a3 3 0 0 1-3-3Z"></path>
+										<path d="M8.5 16a3 3 0 1 0 3 3v-3h-3Z"></path>
+									 </svg>
+									<p>Figma (Beginner)</p>
+								</div>
+								<div class="col-item col-5 col-md-3 col-lg-2" id="webflow">
+									<svg width="90" height="90" fill="rgb(0, 4, 255)" viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg">
+										<path d="M22.5 1.5h-3v3h3v-3Z"></path>
+										<path d="M22.5 6h-3v3h3V6Z"></path>
+										<path d="M18 1.5h-3v3h3v-3Z"></path>
+										<path d="M18 6h-3v3h3V6Z"></path>
+										<path d="M21 12v4.5H3v-12h9V3H3a1.5 1.5 0 0 0-1.5 1.5v12A1.5 1.5 0 0 0 3 18h6v3H6v1.5h12V21h-3v-3h6a1.5 1.5 0 0 0 1.5-1.5V12H21Zm-7.5 9h-3v-3h3v3Z"></path>
+									 </svg>
+									<p>Webflow (Beginner)</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<br id="resumenav">
+			<section id="resume">
+				<div data-aos="fade-left">
+					<h1>Resume</h1>
+				</div>
+				<div class="row">
+					<div class="col-lg-6" data-aos="fade-right">
+						<h3>Educational Background</h3>
+						<p><strong>Access Computer College</strong></p>
+						<p>Bachelor of Science in Information Technology <i>(2019 - 2023)</i></p>
+						<hr>
+						<p><strong>Access Computer College</strong></p>
+						<p>Senior High School | General Academic Strand <i>(2017-2019)</i></p>
+						<hr>
+						<p><strong>Macatingog Integrated School</strong></p>
+						<p>Junior High School <i>(2013-2017)</i></p>
+						<hr>
+						<p><strong>Macatingog Integrated School</strong></p>
+						<p>Elementary School <i>(2007-2013)</i></p>
+					</div>
+					<div class="col-lg-6" data-aos="fade-left">
+						<h3>Internship/Projects</h3>
+						<ul class="list-unstyled">
+							<th><strong>Full-stack Web Developer in our Capstone Project, Web-based Voting System for Homeowner’s Representative in Damar Village, Quezon City.</strong></th>
+							  <ul>
+								<li>Designed user-friendly interface.</li>
+								<li>Managing database using PHP and MySQL.</li>
+							  </ul>
+						  </ul>
+						  <hr>
+						<ul class="list-unstyled">
+							<th><strong>300 hours of internship as a Graphic Designer and Front-end Developer in JAE Hub Company.</strong></th>
+							<ul>
+								<li>Adding basics functions for the client’s website.</li>
+								<li>Making a logo for website.</li>
+								<li>Making pictures/videos advertisements.</li>
+								<li>We studied basic functions in Figma and WebFlow.</li>
+								<li>Making a landing pages using Figma and WebFlow.</li>
+							</ul>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<br id="servicesnav">
+			<section id="services">
+				<h1 data-aos="zoom-out-up">Services</h1>
+				<div class="card-deck" data-aos="zoom-out-up">
+					<div class="card">
+						<div class="card-body">
+						  <h4 class="card-title">
+							<svg width="90" height="90" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<path d="m16 2 5 5v14.008a.993.993 0 0 1-.993.992H3.993A1 1 0 0 1 3 21.008V2.992C3 2.444 3.445 2 3.993 2H16Zm1.657 10L14.12 8.464 12.707 9.88 14.828 12l-2.12 2.121 1.413 1.415L17.657 12ZM6.343 12l3.536 3.536 1.414-1.415L9.172 12l2.12-2.121L9.88 8.464 6.343 12Z"></path>
+							 </svg>
+							  <h4><strong>Web Development</strong></h4>
+						  </h4>
+						  <p class="card-text">Offering fundamental web development services, I specialize in basic techniques and am always eager to embrace new challenges, showcasing a commitment to continuous learning in the ever-evolving world of web development.</p>
+						</div>
+					  </div>
+					<div class="card">
+						<div class="card-body">
+						  <h4 class="card-title">
+							<svg width="90" height="90" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<path d="M4 16h16V5H4v11Zm9 2v2h4v2H7v-2h4v-2H2.992A1 1 0 0 1 2 16.993V4.007C2 3.451 2.455 3 2.992 3h18.016c.548 0 .992.449.992 1.007v12.986c0 .556-.455 1.007-.992 1.007H13Z"></path>
+							 </svg>
+							  <h4><strong>Web Design</strong></h4>
+						  </h4>
+						  <p class="card-text">Offering fundamental web design services, I specialize in the essentials while remaining open to learning new techniques and technologies. Committed to delivering simple yet effective solutions, I continuously strive to enhance my skills and bring fresh, innovative ideas to your project.</p>
+						</div>
+					  </div>
+					<div class="card">
+					  <div class="card-body">
+						<h4 class="card-title">
+							<svg width="90" height="90" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<path d="M2 9.5a7.5 7.5 0 1 1 15 0 7.5 7.5 0 0 1-15 0Z"></path>
+								<path d="M18.163 8.25h1.962a.625.625 0 0 1 .625.625v11.25a.624.624 0 0 1-.625.625H8.875a.625.625 0 0 1-.625-.625v-1.962A8.683 8.683 0 0 1 7 17.887v2.238A1.875 1.875 0 0 0 8.875 22h11.25A1.875 1.875 0 0 0 22 20.125V8.875A1.875 1.875 0 0 0 20.125 7h-2.238c.122.405.213.822.276 1.25Z"></path>
+							 </svg>
+							<h4><strong>Graphic Design</strong></h4>
+						</h4>
+						<p class="card-text">I offer graphic design services with a focus on the fundamentals, catering to clients with basic design needs while remaining open and enthusiastic about learning and adapting to new challenges.</p>
+					  </div>
+					</div>
+				  </div>
+			</section>
+			<br id="portfolionav">
+			<section id="portfolio">
+				<h1 data-aos="zoom-in-up">Portfolio</h1>
+				<div class="container">
+					<h3 data-aos="zoom-in-right"><strong>Works</strong></h3>
+					<div class="row">
+						<div class="col-lg-4" data-aos="zoom-in-right">
+							<div class="card">
+								<img class="img-fluid h-100" src="images/school_project.JPG" alt="">
+								<div class="card-body">
+									<h5 class="card-title">My First Project | Game devices website</h5>
+									<p class="card-text">This is my first static website school project but not responsive at all, it is only supported in pc, laptop and ipad.</p>
+									<a href="https://flogenanthony.github.io/school_project/index.html">Click here to see the website</a>
+								</div>
+							</div>							  
+						</div>
+						<div class="col-lg-4" data-aos="zoom-in-up">
+							<div class="card">
+								<img class="img-fluid h-100" src="images/figma.jpeg" alt="">
+								<div class="card-body">
+									<h5 class="card-title">Figma landing page</h5>
+									<p class="card-text">This is the sample we made in our internship using figma. I made a sample web design only.</p>
+									<a href="https://www.figma.com/proto/CYVVEov7ttclK8XHbvoNti/Future-Craft-Digital?node-id=4-110&t=rp2GuyjSuHaA4qxA-1&mode=design">
+										click to see the sample
+									</a>
+								</div>
+							</div>							  
+						</div>
+						<div class="col-lg-4" data-aos="zoom-in-left">
+							<div class="card">
+								<img class="img-fluid h-100" src="images/capstone_project.JPG" alt="">
+								<div class="card-body">
+									<h5 class="card-title">Capstone Project | Web-based Voting System</h5>
+									<p class="card-text">This is our capstone project "Web-based voting system for homeowners representative in Damar village, Quezon City"</p>
+									<a href="https://drive.google.com/drive/folders/1-STsUEQdnsTlqR0OXwhiW9symuf7TSQa?usp=drive_link">
+										click to see the sample in gdrive
+									</a>
+								</div>
+							</div>							  
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<h3 data-aos="zoom-in-right"><strong>Certificate of Participations</strong></h3>
+					<div class="row">
+						<div class="col-lg-6 cert" data-aos="zoom-out-right">
+							<div id="carouselFadeExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+								<div class="carousel-inner" role="listbox">
+								  <div class="carousel-item active">
+									<img class="d-block img-fluid h-100" src="images/cert1.jpg" alt="" data-holder-rendered="true">
+								  </div>
+								  <div class="carousel-item">
+									<img class="d-block img-fluid h-100" src="images/cert2.png" alt="" data-holder-rendered="true">
+								  </div>
+								  <div class="carousel-item">
+									<img class="d-block img-fluid h-100" src="images/cert3.jpeg" alt="" data-holder-rendered="true">
+								  </div>
+								  <div class="carousel-item">
+									<img class="d-block img-fluid h-100" src="images/cert4.jpg" alt="" data-holder-rendered="true">
+								  </div>
+								  <div class="carousel-item">
+									<img class="d-block img-fluid h-100" src="images/cert5.jpg" alt="" data-holder-rendered="true">
+								  </div>
+								  <div class="carousel-item">
+									<img class="d-block img-fluid h-100" src="images/cert6.jpeg" alt="" data-holder-rendered="true">
+								  </div>
+								</div>
+								<a class="carousel-control-prev" href="#carouselFadeExampleIndicators" role="button" data-slide="prev">
+								  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								  <span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next" href="#carouselFadeExampleIndicators" role="button" data-slide="next">
+								  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+								  <span class="sr-only">Next</span>
+								</a>
+							</div>  
+						</div>
+						<div class="col-lg-5 d-flex align-items-center justify-content-center" data-aos="zoom-out-left">
+							<div class="img">
+								<img src="images/img1.jpg" alt="" height="250px" id="dp2">
+							</div>
+						</div>
+					</div>	
+				</div>
+			</section>
+			<br id="contactnav">
+			<section id="contact">
+				<div class="container">
+					<div class="card-body" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+						<div class="content">
+							<div class="text-content">
+								<h2>Contact Me</h2>
+								<div class="row justify-content-center">
+									<div class="card-item col-md-5">
+										<svg id="svg" width="40" height="40" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" d="M5 9c0-3.87 3.13-7 7-7s7 3.13 7 7c0 5.25-7 13-7 13S5 14.25 5 9Zm4.5 0a2.5 2.5 0 0 0 5 0 2.5 2.5 0 0 0-5 0Z" clip-rule="evenodd"></path>
+										 </svg>
+										<div class="card-text">
+											<h4>My Location</h4>
+											<p>Manila City, Metro Manila</p>
+										</div>
+									</div>
+									<div class="card-item col-md-5">
+										<svg id="svg" width="40" height="40" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+											<path d="M18 16.12c-.76 0-1.44.3-1.96.77l-7.13-4.15c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.85c-.54-.5-1.25-.81-2.04-.81-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92 0-1.61-1.31-2.92-2.92-2.92Zm0-12.08c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1Zm-12 9c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1Zm12 7.02c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1Z"></path>
+										 </svg>
+										<div class="card-text">
+											<h4>Social Media</h4>
+											<div class="accounts">
+												<a href="https://www.facebook.com/anthony.flogen.7" id="logo">
+													<svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+														<path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5Z"></path>
+													</svg>
+												</a>
+												<a href="https://www.instagram.com/flogenanthony/" id="logo">
+													<svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+														<path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153.509.5.902 1.105 1.153 1.772.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772c-.5.508-1.105.902-1.772 1.153-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2Zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm6.5-.25a1.25 1.25 0 1 0-2.5 0 1.25 1.25 0 0 0 2.5 0ZM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6Z"></path>
+													</svg>
+												</a>
+												<a href="https://github.com/flogenanthony" id="logo">
+													<svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+														<path d="M12 2C6.475 2 2 6.475 2 12a9.994 9.994 0 0 0 6.838 9.488c.5.087.687-.213.687-.476 0-.237-.013-1.024-.013-1.862-2.512.463-3.162-.612-3.362-1.175-.113-.288-.6-1.175-1.025-1.413-.35-.187-.85-.65-.013-.662.788-.013 1.35.725 1.538 1.025.9 1.512 2.338 1.087 2.912.825.088-.65.35-1.087.638-1.337-2.225-.25-4.55-1.113-4.55-4.938 0-1.088.387-1.987 1.025-2.688-.1-.25-.45-1.275.1-2.65 0 0 .837-.262 2.75 1.026a9.28 9.28 0 0 1 2.5-.338c.85 0 1.7.112 2.5.337 1.912-1.3 2.75-1.024 2.75-1.024.55 1.375.2 2.4.1 2.65.637.7 1.025 1.587 1.025 2.687 0 3.838-2.337 4.688-4.562 4.938.362.312.675.912.675 1.85 0 1.337-.013 2.412-.013 2.75 0 .262.188.574.688.474A10.016 10.016 0 0 0 22 12c0-5.525-4.475-10-10-10Z"></path>
+													</svg>
+												</a>
+												<a href="https://t.me/flogenanthony7" id="logo">
+													<svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+														<path d="m20.665 3.72-17.73 6.837c-1.21.486-1.203 1.16-.222 1.462l4.552 1.42 10.532-6.645c.498-.303.953-.14.579.192l-8.533 7.7H9.84l.002.002-.314 4.692c.46 0 .663-.211.92-.46l2.212-2.15 4.599 3.397c.848.467 1.457.227 1.668-.785l3.019-14.228c.309-1.24-.473-1.8-1.282-1.434Z"></path>
+													</svg>
+												</a>
+												<a href="https://www.linkedin.com/in/anthony-flogen-b21710297/" id="logo">
+													<svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" d="M9.429 8.969h3.714v1.85c.535-1.064 1.907-2.02 3.968-2.02 3.951 0 4.889 2.118 4.889 6.004V22h-4v-6.312c0-2.213-.535-3.461-1.897-3.461-1.889 0-2.674 1.345-2.674 3.46V22h-4V8.969zM2.57 21.83h4V8.799h-4V21.83zM7.143 4.55a2.53 2.53 0 0 1-.753 1.802 2.573 2.573 0 0 1-1.82.748 2.59 2.59 0 0 1-1.818-.747A2.548 2.548 0 0 1 2 4.55c0-.677.27-1.325.753-1.803A2.583 2.583 0 0 1 4.571 2c.682 0 1.336.269 1.819.747.482.478.753 1.126.753 1.803z" clip-rule="evenodd"></path>
+													 </svg>
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="card-item col-md-5">
+										<svg id="svg" width="40" height="40" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2l.01-12c0-1.1.89-2 1.99-2Zm8 9 8-5V6l-8 5-8-5v2l8 5Z" clip-rule="evenodd"></path>
+										 </svg>
+										<div class="card-text">
+											<h4>Email Me</h4>
+											<p>flogenanthony@gmail.com</p>
+										</div>
+									</div>
+									<div class="card-item col-md-5">
+										<svg id="svg" width="40" height="40" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+											<path d="M20 10.999h2C22 5.869 18.127 2 12.99 2v2C17.052 4 20 6.943 20 10.999Z"></path>
+											<path d="M13 8.002c2.103 0 3 .897 3 3h2c0-3.225-1.775-5-5-5v2Zm3.422 5.443a1.001 1.001 0 0 0-1.39.043l-2.394 2.461c-.576-.11-1.734-.47-2.926-1.66-1.192-1.193-1.553-2.354-1.66-2.926l2.46-2.394a1 1 0 0 0 .042-1.39L6.86 3.514a1 1 0 0 0-1.39-.087L3.298 5.29a1 1 0 0 0-.29.65c-.016.25-.302 6.171 4.29 10.765 4.006 4.005 9.024 4.298 10.406 4.298.202 0 .326-.006.36-.008a.992.992 0 0 0 .647-.29l1.86-2.172a1 1 0 0 0-.086-1.39l-4.064-3.697Z"></path>
+										</svg>
+										<div class="card-text">
+											<h4>Call Me</h4>
+											<p>0967-229-0433</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<!-- jQuery and Popper.js -->
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KtLEtZ+L78Sb7sDk6Ck8HZd8+5V0jsv8RFA33J2mJCFswC/P9z68k12HdI5z3BJs" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-A6vw4V9HdaxiG8Zd5WgDPtNqlhqV9b6NRHA+LZfNECKvKak8z9+JkPW5p6Ic6E9S" crossorigin="anonymous"></script>
+
+
+		<!-- Bootstrap JS -->
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+		<!-- CDN Link JS -->
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+		<script>
+			AOS.init();
+		</script>
+
+	</body>
+	<footer>Copyright © Anthony Flogen. All rights reserved.</footer>
+</html>

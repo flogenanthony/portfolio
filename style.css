@@ -1,0 +1,453 @@
+* {
+	font-family: "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+hr {
+    background-color: white;
+}
+
+/*BODY*/
+body {
+	background-color: #000000;
+}
+
+/*NAV*/
+.navbar {
+    padding: 10px 0px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar-custom {
+    background-color: #ffffff10;
+    transition: background-color 0.3s ease; 
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: color 0.3s ease; /* Transition for text color change */
+}
+
+.navbar-toggler {
+    background-color: #ffffff91;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+  
+.navbar-toggler:hover {
+    background-color: #00000098;
+}
+
+.nav-link:hover {
+    color: #000000;
+} 
+
+.navbar-custom:hover {
+    background-color: #ffffff49; /* Change background color on hover */
+}
+
+
+/*PROFILE*/
+#profile {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	margin-top: 50px;
+}
+
+#landing {
+	/* Centers the content vertically using flexbox */
+	display: flex;
+	flex-direction: column; /* Column is equal to y-axis or top to bottom alignment*/
+	justify-content: center;
+	align-items: center;
+    margin-top: 100px;
+}
+
+.social {
+    display: flex;
+    align-items: center; 
+}
+
+.social a {
+    margin: 0px 5px;
+    text-decoration: none;
+    color: white; /* Set the default text color */
+}
+
+.social svg {
+    width: 24px;
+    height: 24px;
+}
+
+#fb, #ig, #gh, #gg, #tg {
+    margin-top: 60px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background-color: rgba(255, 255, 255, 0.055);
+    transition: background-color 0.3s ease; /* Add a smooth transition effect for the background-color property */
+}
+
+#fb:hover {
+    background-color: #007bff; /* Set the background color on hover */
+}
+
+#ig:hover {
+    background-color: #ff5100; /* Set the background color on hover */
+}
+
+#gh:hover {
+    background-color: #535353; /* Set the background color on hover */
+}
+
+#gg:hover {
+    background-color: #00c02a; /* Set the background color on hover */
+}
+
+#tg:hover {
+    background-color: #008cff; /* Set the background color on hover */
+}
+
+
+/*ABOUT*/
+#about{
+	margin-top: 100px;
+}
+
+#about h2 {
+	font-weight: bold;
+}
+
+.about-card {
+	background-color: rgba(255, 255, 255, 0.027);
+}
+
+.about-card-body {
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.card-img-top {
+	height: 320px;
+	width: 320px;
+	border-radius: 10px;
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.text-content {
+    flex: 1; /* This will make the text take up the remaining space */
+}
+
+@media (max-width: 1050px) {
+    .content {
+        flex-direction: column;
+		align-items: center;
+	}
+	h2 {
+		text-align: center;
+	}
+    .card-img-top {
+        margin-right: 0;
+        margin-bottom: 20px; /* Add margin bottom for spacing between image and text on smaller screens */
+    }
+}
+
+/*SKILLS*/
+#skills {
+	margin-top: 50px;
+}
+
+#skills h2 {
+	text-align: center;
+    font-weight: bold;
+}
+
+.col-item p {
+	color: #ffffff;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.col-item {
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ffffff15;
+    padding: 10px;
+}
+
+#html {
+    transition: filter 0.3s ease; /* Add a smooth transition effect for the filter property */
+}
+
+#html:hover {
+    filter: drop-shadow(0 0 10px rgb(255, 81, 0)); /* Apply a glowing effect on hover */
+}
+
+#css {
+    transition: filter 0.3s ease; 
+}
+
+#css:hover {
+    filter: drop-shadow(0 0 10px rgb(0, 110, 255)); 
+}
+
+#javascript {
+    transition: filter 0.3s ease; 
+}
+
+#javascript:hover {
+    filter: drop-shadow(0 0 10px rgb(238, 255, 0)); 
+}
+
+#php {
+    transition: filter 0.3s ease;
+}
+
+#php:hover {
+    filter: drop-shadow(0 0 10px rgb(38, 0, 255)); 
+}
+
+#sql {
+    transition: filter 0.3s ease; 
+}
+
+#sql:hover {
+    filter: drop-shadow(0 0 10px rgb(0, 195, 255)); 
+}
+
+#bootstrap {
+    transition: filter 0.3s ease; 
+}
+
+#bootstrap:hover {
+    filter: drop-shadow(0 0 10px rgb(165, 0, 180)); 
+}
+
+#vscode {
+    transition: filter 0.3s ease; 
+}
+
+#vscode:hover {
+    filter: drop-shadow(0 0 10px rgb(0, 42, 180));
+}
+
+#photoshop {
+    transition: filter 0.3s ease; 
+}
+
+#photoshop:hover {
+    filter: drop-shadow(0 0 10px rgb(38, 0, 255));
+}
+
+#figma {
+    transition: filter 0.3s ease; 
+}
+
+#figma:hover {
+    filter: drop-shadow(0 0 10px rgb(43, 255, 0));
+}
+
+#webflow {
+    transition: filter 0.3s ease; 
+}
+
+#webflow:hover {
+    filter: drop-shadow(0 0 10px rgb(0, 4, 255));
+}
+
+/*RESUME*/
+#resume {
+	margin-top: 100px;
+}
+
+#resume h1 {
+	text-align: center;
+    font-weight: bold;
+    margin: 50px;
+}
+
+/*SERVICES*/
+#services {
+	margin-top: 50px;
+}
+
+#services h1 {
+	text-align: center;
+    font-weight: bold;
+    margin: 50px;
+}
+
+#services h4 {
+	text-align: center;
+}
+
+#services p {
+	text-align: center;
+    font-size: 12px;
+}
+
+#services .card {
+    background-color: #ffffff1a;
+    transition: background-color 0.4s ease; /* Add smooth transition for the background-color property */
+}
+
+#services .card svg,
+#services .card p,
+#services .card strong {
+    transition: color 0.4s ease; /* Add smooth transition for the color property */
+}
+
+#services .card:hover {
+    background-color: rgba(255, 255, 255, 0.671); /* Change background color to gray on hover */
+}
+
+#services .card:hover svg {
+    fill: rgb(0, 0, 0); /* Change SVG fill color to black on hover */
+}
+
+#services .card:hover p,
+#services .card:hover strong {
+    color: black; /* Change text color to black on hover */
+}
+
+/*PORTFOLIO*/
+#portfolio {
+	margin-top: 100px;
+}
+
+#portfolio .card {
+    position: relative;
+    overflow: hidden;
+    background-color: #000000;
+    margin: 20px 0px;
+}
+
+#portfolio .card p {
+    font-size: 12px;
+}
+
+#portfolio .card h5 {
+    font-weight: bold;
+    text-align: center;
+}
+  
+#portfolio  .card .card-body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent white background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease;
+}
+  
+#portfolio  .card:hover .card-body {
+    opacity: 1;
+}
+
+#portfolio h1 {
+	text-align: center;
+    font-weight: bold;
+    margin: 50px;
+}
+
+#portfolio #dp2 {
+    border-radius: 20px;
+}
+
+#portfolio .img, #portfolio .cert  {
+    margin-top: 20px;
+}
+
+#portfolio span {
+    background-color: #00000062;
+    height: 35px;
+    width: 25px;
+    border-radius: 5px;
+}
+
+/*CONTACT*/
+#contact .card-body {
+    background-color: #ffffff0c;
+    margin: 200px 0px 50px 0px;
+}
+
+#contact h2, #contact h4 {
+    font-weight: bold;
+}
+
+#contact .card-item {
+    background-color: #000000c7;
+    margin: 10px 10px;
+    padding: 10px;
+    display: flex;
+	flex-direction: row;
+    align-items: center;
+}
+
+#contact #svg {
+    margin: 10px 20px;
+}
+
+#contact .accounts {
+    display: flex;
+    align-items: center; 
+}
+
+#contact .accounts a {
+    margin: 0px 5px;
+    text-decoration: none;
+    color: white; /* Set the default text color */
+}
+
+#contact #logo {
+    background-color: #ffffff46;
+    padding: 2px 7px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+#contact #logo:hover {
+    background-color: #ffffff;
+}
+
+#contact #logo:hover path {
+    color: #000000;
+}
+
+/*FOOTER*/
+footer {
+    color: #ffffff5b;
+    text-align: center;
+    background-color: rgba(252, 252, 252, 0.027);
+    padding: 10px 0px;
+}

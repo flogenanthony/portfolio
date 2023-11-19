@@ -23,9 +23,6 @@
 		<!-- jQuery library -->
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-		<!-- External JavaScript file -->
-		<script src="script.js"></script>
-		
 	</head>
 	<body>
 		<header>
@@ -40,26 +37,26 @@
 						 </svg>
 					</span>
 				</button>
-				<a class="navbar-brand" href="index.html"><img src="images/logo_white.png"></a>
+				<a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav mx-auto">
 						<li class="nav-item">
-							<a class="nav-link" href="#">Home</a>
+							<a class="nav-link active" href="index.html" id="homeLink">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#aboutnav">About</a>
+							<a class="nav-link" href="#aboutnav" id="aboutLink">About</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#resumenav">Resume</a>
+							<a class="nav-link" href="#resumenav" id="resumeLink">Resume</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#servicesnav">Services</a>
+							<a class="nav-link" href="#servicesnav" id="servicesLink">Services</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#portfolionav">Portfolio</a>
+							<a class="nav-link" href="#portfolionav" id="portfolioLink">Portfolio</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#contactnav">Contact</a>
+							<a class="nav-link" href="#contactnav" id="contactLink">Contact</a>
 						</li>
 					</ul>
 				</div>
@@ -99,7 +96,7 @@
 					</a>
 				</div>
 			</section>
-			<!-- NAV SECTION -->
+			<!-- ABOUT SECTION -->
 			<br id="aboutnav">
 			<section id="about" data-aos="fade-up">
 				<div class="card about-card">
@@ -311,20 +308,20 @@
 									<h5 class="card-title">My First Project | Static Game E-commerse Website</h5>
 									<p class="card-text">This is my first static website school project but not responsive, it is only supported in pc, laptop and ipad.</p>
 									<div>
-										<a href="portfolio-details-p1.html" class="card-link">See photo</a>
+										<a href="#" class="card-link" data-toggle="modal" data-target="#photoModal1">See photo</a>
     									<a href="portfolio-details-p1.html" class="card-link">See info</a>
 									</div>
 								</div>
-							</div>							  
+							</div>
 						</div>
 						<div class="col-lg-4" data-aos="zoom-in-up">
 							<div class="card">
 								<img class="img-fluid h-100" src="images/f1.1.jpeg">
 								<div class="card-body">
 									<h5 class="card-title">Figma | Landing Page Project 1</h5>
-									<p class="card-text">This is my first project in Figma.</p>
+									<p class="card-text">This is my first project in Figma. This is just a simple landing page in my website.</p>
 									<div>
-										<a href="portfolio-details-p1.html" class="card-link">See photo</a>
+										<a href="#" class="card-link" data-toggle="modal" data-target="#photoModal2">See photo</a>
     									<a href="portfolio-details-p1.html" class="card-link">See info</a>
 									</div>
 								</div>
@@ -335,9 +332,35 @@
 								<img class="img-fluid h-100" src="images/c1.jpeg">
 								<div class="card-body">
 									<h5 class="card-title">Capstone Project | Web-based Voting System</h5>
-									<p class="card-text">This is our capstone project "Web-based voting system for homeowners representative in Damar village, Quezon City"</p>
+									<p class="card-text">This is our capstone project in 4th year college "Web-based voting system for homeowners representative in Damar village, Quezon City"</p>
 									<div>
-										<a href="portfolio-details-p1.html" class="card-link">See photo</a>
+										<a href="#" class="card-link" data-toggle="modal" data-target="#photoModal3">See photo</a>
+    									<a href="portfolio-details-p1.html" class="card-link">See info</a>
+									</div>
+								</div>
+							</div>							  
+						</div>
+						<div class="col-lg-4" data-aos="zoom-in-right">
+							<div class="card"> 
+								<img class="img-fluid h-100" src="images/p2.2.jpeg">
+								<div class="card-body">
+									<h5 class="card-title">Weather App</h5>
+									<p class="card-text">This is a weather app that you can input any country or city and can detect weather by using API weather map.</p>
+									<div>
+										<a href="#" class="card-link" data-toggle="modal" data-target="#photoModal4">See photo</a>
+    									<a href="portfolio-details-p1.html" class="card-link">See info</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4" data-aos="zoom-in-up">
+							<div class="card">
+								<img class="img-fluid h-100" src="images/p3.2.jpeg">
+								<div class="card-body">
+									<h5 class="card-title">To-Do List App</h5>
+									<p class="card-text">This is a to-do list app that you can input, mark as done and delete the text you have inputed.</p>
+									<div>
+										<a href="#" class="card-link" data-toggle="modal" data-target="#photoModal5">See photo</a>
     									<a href="portfolio-details-p1.html" class="card-link">See info</a>
 									</div>
 								</div>
@@ -393,7 +416,7 @@
 			<br id="contactnav">
 			<section id="contact">
 				<div class="container">
-					<div class="card-body" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+					<div class="card-body" data-aos="zoom-in-up">
 						<div class="content">
 							<div class="text-content">
 								<h2>Contact Me</h2>
@@ -466,8 +489,60 @@
 						</div>
 					</div>
 				</div>
+
+				<!-- MODAL IN PORTFOLIO WORKS/PROJECTS -->
+				<div class="modal-section">
+					<div class="modal fade" id="photoModal1" tabindex="-1" role="dialog" aria-labelledby="photoModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-body">
+									<img class="img-fluid" src="images/p1.1.jpeg">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal fade" id="photoModal2" tabindex="-1" role="dialog" aria-labelledby="photoModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-body">
+									<img class="img-fluid" src="images/f1.1.jpeg">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal fade" id="photoModal3" tabindex="-1" role="dialog" aria-labelledby="photoModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-body">
+									<img class="img-fluid" src="images/c1.jpeg">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal fade" id="photoModal4" tabindex="-1" role="dialog" aria-labelledby="photoModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-body">
+									<img class="img-fluid" src="images/p2.2.jpeg">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal fade" id="photoModal5" tabindex="-1" role="dialog" aria-labelledby="photoModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-body">
+									<img class="img-fluid" src="images/p3.2.jpeg">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</section>
 		</div>
+
+		<!-- External JavaScript file -->
+		<script src="script.js"></script>
 
 		<!-- jQuery and Popper.js -->
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KtLEtZ+L78Sb7sDk6Ck8HZd8+5V0jsv8RFA33J2mJCFswC/P9z68k12HdI5z3BJs" crossorigin="anonymous"></script>

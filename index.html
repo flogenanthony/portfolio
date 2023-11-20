@@ -68,6 +68,20 @@
 				<h1>Front-end Web Developer</h1>
 				<p>Hello there! I'm Anthony Flogen, a recent graduate with a passion for coding and a degree in Information Technology. As a fresh graduate eager to dive into the world of web development, I bring enthusiasm, creativity, and a strong willingness to learn.</p>
 				<img src="images/img3.jpg" class="img-fluid" id="profile">
+
+				<div class="button" data-tooltip="Size: 20Mb" id="downloadButton">
+					<div class="button-wrapper">
+						<div class="text">Download CV</div>
+						<a href="images/Anthony_Flogen_CV.pdf" download="Anthony_Flogen_CV.pdf">
+							<span class="icon">
+								<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="2em" height="2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+									<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17"></path>
+								</svg>
+							</span>
+						</a>
+					</div>
+				</div>
+
 				<div class="social">
 					<a href="https://www.facebook.com/anthony.flogen.7" id="fb">
 						<svg width="36" height="36" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -124,7 +138,7 @@
 						</div>
 					</div>
 					<!-- SKILLS SECTION -->
-					<div class="container" id="skills" data-aos="flip-up">
+					<div class="container" id="skills" data-aos="fade-up">
 						<h2>Skills</h2>
 						<div class="skill container">
 							<div class="row justify-content-center">
@@ -297,7 +311,10 @@
 			<!-- PORTFOLIO SECTION -->
 			<br id="portfolionav">
 			<section id="portfolio">
-				<h1 data-aos="zoom-in-up">Portfolio</h1>
+				<div class="portfolio-header" data-aos="zoom-in-up">
+					<h1>Portfolio</h1>
+					<p>Explore my portfolio to witness a showcase of hands-on projects and certifications, where I've applied my skills in web development with creativity and precision, demonstrating a commitment to continuous learning and staying at the forefront of the latest industry standards</p>
+				</div>
 				<div class="container mb-5">
 					<h3 data-aos="zoom-in-right"><strong>Works</strong></h3>
 					<div class="row">
@@ -316,10 +333,10 @@
 						</div>
 						<div class="col-lg-4" data-aos="zoom-in-up">
 							<div class="card">
-								<img class="img-fluid h-100" src="images/f1.1.jpeg">
+								<img class="img-fluid h-100" src="images/w1.1.jpeg">
 								<div class="card-body">
-									<h5 class="card-title">Figma | Landing Page Project 1</h5>
-									<p class="card-text">This is my first project in Figma. This is just a simple landing page in my website.</p>
+									<h5 class="card-title">Wix Project | E-commerse</h5>
+									<p class="card-text">This is my wix project in 3rd year college but it doesn't have a domain. I asked my friend to make a simple website in his Thrift shop"</p>
 									<div>
 										<a href="#" class="card-link" data-toggle="modal" data-target="#photoModal2">See photo</a>
     									<a href="portfolio-details-p1.html" class="card-link">See info</a>
@@ -329,10 +346,10 @@
 						</div>
 						<div class="col-lg-4" data-aos="zoom-in-left">
 							<div class="card">
-								<img class="img-fluid h-100" src="images/c1.jpeg">
+								<img class="img-fluid h-100" src="images/f1.1.jpeg">
 								<div class="card-body">
-									<h5 class="card-title">Capstone Project | Web-based Voting System</h5>
-									<p class="card-text">This is our capstone project in 4th year college "Web-based voting system for homeowners representative in Damar village, Quezon City"</p>
+									<h5 class="card-title">Figma | Landing Page Project 1</h5>
+									<p class="card-text">This is my first project in Figma. This is just a simple landing page in my website.</p>
 									<div>
 										<a href="#" class="card-link" data-toggle="modal" data-target="#photoModal3">See photo</a>
     									<a href="portfolio-details-p1.html" class="card-link">See info</a>
@@ -341,26 +358,39 @@
 							</div>							  
 						</div>
 						<div class="col-lg-4" data-aos="zoom-in-right">
+							<div class="card">
+								<img class="img-fluid h-100" src="images/c1.jpeg">
+								<div class="card-body">
+									<h5 class="card-title">Capstone Project | Web-based Voting System</h5>
+									<p class="card-text">This is our capstone project in 4th year college "Web-based voting system for homeowners representative in Damar village, Quezon City"</p>
+									<div>
+										<a href="#" class="card-link" data-toggle="modal" data-target="#photoModal4">See photo</a>
+    									<a href="portfolio-details-p1.html" class="card-link">See info</a>
+									</div>
+								</div>
+							</div>							  
+						</div>
+						<div class="col-lg-4" data-aos="zoom-in-up">
 							<div class="card"> 
 								<img class="img-fluid h-100" src="images/p2.2.jpeg">
 								<div class="card-body">
 									<h5 class="card-title">Weather App</h5>
 									<p class="card-text">This is a weather app that you can input any country or city and can detect weather by using API weather map.</p>
 									<div>
-										<a href="#" class="card-link" data-toggle="modal" data-target="#photoModal4">See photo</a>
+										<a href="#" class="card-link" data-toggle="modal" data-target="#photoModal5">See photo</a>
     									<a href="portfolio-details-p1.html" class="card-link">See info</a>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-4" data-aos="zoom-in-up">
+						<div class="col-lg-4" data-aos="zoom-in-left">
 							<div class="card">
 								<img class="img-fluid h-100" src="images/p3.2.jpeg">
 								<div class="card-body">
 									<h5 class="card-title">To-Do List App</h5>
 									<p class="card-text">This is a to-do list app that you can input, mark as done and delete the text you have inputed.</p>
 									<div>
-										<a href="#" class="card-link" data-toggle="modal" data-target="#photoModal5">See photo</a>
+										<a href="#" class="card-link" data-toggle="modal" data-target="#photoModal6">See photo</a>
     									<a href="portfolio-details-p1.html" class="card-link">See info</a>
 									</div>
 								</div>
@@ -505,7 +535,7 @@
 						<div class="modal-dialog modal-dialog-centered" role="document">
 							<div class="modal-content">
 								<div class="modal-body">
-									<img class="img-fluid" src="images/f1.1.jpeg">
+									<img class="img-fluid" src="images/w1.1.jpeg">
 								</div>
 							</div>
 						</div>
@@ -514,7 +544,7 @@
 						<div class="modal-dialog modal-dialog-centered" role="document">
 							<div class="modal-content">
 								<div class="modal-body">
-									<img class="img-fluid" src="images/c1.jpeg">
+									<img class="img-fluid" src="images/f1.1.jpeg">
 								</div>
 							</div>
 						</div>
@@ -523,12 +553,21 @@
 						<div class="modal-dialog modal-dialog-centered" role="document">
 							<div class="modal-content">
 								<div class="modal-body">
-									<img class="img-fluid" src="images/p2.2.jpeg">
+									<img class="img-fluid" src="images/c1.jpeg">
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="modal fade" id="photoModal5" tabindex="-1" role="dialog" aria-labelledby="photoModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-body">
+									<img class="img-fluid" src="images/p2.2.jpeg">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal fade" id="photoModal6" tabindex="-1" role="dialog" aria-labelledby="photoModalLabel" aria-hidden="true">
 						<div class="modal-dialog modal-dialog-centered" role="document">
 							<div class="modal-content">
 								<div class="modal-body">

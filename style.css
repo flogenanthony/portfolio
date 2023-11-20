@@ -86,10 +86,128 @@ nav .navbar-brand img {
 	align-items: center;
     margin-top: 100px;
 }
+  
+#landing h1 {
+    color: #ff3c00;
+    font-weight: bold;
+}
+
+#landing .button {
+    margin-top: 100px;
+    --width: 160px;
+    --height: 35px;
+    --tooltip-height: 35px;
+    --tooltip-width: 90px;
+    --gap-between-tooltip-to-button: 18px;
+    --button-color: #ff3300;
+    --tooltip-color: #fff;
+    width: var(--width);
+    height: var(--height);
+    background: var(--button-color);
+    position: relative;
+    text-align: center;
+    border-radius: 0.45em;
+    font-family: "Arial";
+    transition: background 0.3s;
+}
+  
+#landing .button::before {
+    position: absolute;
+    content: attr(data-tooltip);
+    width: var(--tooltip-width);
+    height: var(--tooltip-height);
+    background-color: var(--tooltip-color);
+    font-size: 0.9rem;
+    color: #111;
+    border-radius: .25em;
+    line-height: var(--tooltip-height);
+    bottom: calc(var(--height) + var(--gap-between-tooltip-to-button) + 10px);
+    left: calc(50% - var(--tooltip-width) / 2);
+}
+  
+#landing .button::after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: var(--tooltip-color);
+    left: calc(50% - 10px);
+    bottom: calc(100% + var(--gap-between-tooltip-to-button) - 10px);
+}
+  
+#landing .button::after,.button::before {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+  
+#landing .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+#landing  .button-wrapper,.text,.icon {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    color: #fff;
+}
+  
+#landing .text {
+    top: 0
+}
+  
+#landing  .text,.icon {
+    transition: top 0.5s;
+}
+  
+#landing  .icon {
+    color: #fff;
+    top: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+  
+#landing .icon svg {
+    width: 24px;
+    height: 24px;
+}
+  
+#landing  .button:hover {
+    background: #ff1100;
+}
+  
+#landing  .button:hover .text {
+    top: -100%;
+}
+  
+#landing .button:hover .icon {
+    top: 0;
+}
+  
+#landing .button:hover:before,.button:hover:after {
+    opacity: 1;
+    visibility: visible;
+}
+  
+#landing .button:hover:after {
+    bottom: calc(var(--height) + var(--gap-between-tooltip-to-button) - 20px);
+}
+  
+#landing  .button:hover:before {
+    bottom: calc(var(--height) + var(--gap-between-tooltip-to-button));
+}
 
 .social {
+    margin-top: 10px;
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
 
 .social a {
@@ -104,7 +222,6 @@ nav .navbar-brand img {
 }
 
 #fb, #ig, #gh, #gg, #tg {
-    margin-top: 60px;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -161,8 +278,9 @@ nav .navbar-brand img {
 	margin-top: 100px;
 }
 
-#about h2 {
-	font-weight: bold;
+#about .text-content h2 {
+	font-weight: bolder;
+    color: #ff3c00;
 }
 
 .about-card {
@@ -317,6 +435,7 @@ nav .navbar-brand img {
 	text-align: center;
     font-weight: bold;
     margin: 50px;
+    color: #ff3c00;
 }
 
 /*SERVICES*/
@@ -328,6 +447,7 @@ nav .navbar-brand img {
 	text-align: center;
     font-weight: bold;
     margin: 50px;
+    color: #ff3c00;
 }
 
 #services h4 {
@@ -403,10 +523,16 @@ nav .navbar-brand img {
     opacity: 1;
 }
 
-#portfolio h1 {
+#portfolio .portfolio-header h1 {
 	text-align: center;
     font-weight: bold;
-    margin: 50px;
+    margin: 50px auto 0;
+    color: #ff3c00;
+}
+
+#portfolio .portfolio-header p {
+    text-align: center;
+    margin: 0 auto 50px;
 }
 
 #portfolio #dp2 {
@@ -446,7 +572,13 @@ nav .navbar-brand img {
     margin: 200px 0px 50px 0px;
 }
 
-#contact h2, #contact h4 {
+#contact h2 {
+    font-weight: bold;
+    color: #ff3c00;
+    text-align: center;
+}
+
+#contact h4 {
     font-weight: bold;
 }
 
